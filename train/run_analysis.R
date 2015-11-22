@@ -75,9 +75,9 @@ run_analysis <- function(){
       line_num <- line_num+1
     }
   }
-  head(tidy_data_set)
+
   
   
-  
+  return(tidy_data_set)
  
 }
